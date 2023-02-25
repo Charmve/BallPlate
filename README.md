@@ -1,11 +1,27 @@
 ![image](https://user-images.githubusercontent.com/29084184/193403886-5f05893c-74b2-404d-805e-b008ae43595b.png)
 
+<h1 align="center">板球控制系統 BallPlate</h1>
+<h2 align="center">2017年全国大学生电子设计竞赛B题 板球控制系統/滾球系統/BallPlate 赛题解析+源代码开源</h2>
+<div align="center">
 
-# 板球控制系統 BallPlate
+<a href="https://github.com/Charmve/BallPlate/stargazers"><img src="https://img.shields.io/github/stars/Charmve/BallPlate" alt="Stars Badge"/></a>
+<a href="https://github.com/Charmve/BallPlate/network/members"><img src="https://img.shields.io/github/forks/Charmve/BallPlate" alt="Forks Badge"/></a>
+<a href="https://github.com/Charmve/BallPlate/pulls"><img src="https://img.shields.io/github/issues-pr/Charmve/BallPlate" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/Charmve/BallPlate/issues"><img src="https://img.shields.io/github/issues/Charmve/BallPlate" alt="Issues Badge"/></a>
+<a href="https://github.com/Charmve/BallPlate/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Charmve/BallPlate?color=2b9348"></a>
+<a href="https://github.com/Charmve/BallPlate/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Charmve/BallPlate?color=2b9348" alt="License Badge"/></a>
 
-2017年全国大学生电子设计竞赛B题 板球控制系統/滾球系統/BallPlate 赛题解析+源代码开源
+<!--- ![](https://img.shields.io/badge/-%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1-red)  --->
+<a href="https://github.com/sponsors/Charmve"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="License Badge"/></a>
 
-此份代码基于stm32F407，开发板使用正点原子探索者，摄像头也是正点原子的OV2640摄像头，两路PWM。一个在PF9一个在PF7。频率50HZ，PID定时器中断20MS,进行了软件二值化，并用极其简单的算法提取质心。PID使用智能车常见的PD控制，参数还需要再仔细调整。摄像头帧率在27-28帧左右。舵机使用MG996R，很常见，驱动电压5.9v,采用大功率稳压器件。由锂电池稳压驱动舵机。锂电池11.4v 3S. 
+
+<i>喜欢这个项目吗？请考虑给 Star ⭐️ 以帮助改进！</i>
+
+</div>
+
+----
+
+> 此份代码基于stm32F407，开发板使用正点原子探索者，摄像头也是正点原子的OV2640摄像头，两路PWM。一个在PF9一个在PF7。频率50HZ，PID定时器中断20MS,进行了软件二值化，并用极其简单的算法提取质心。PID使用智能车常见的PD控制，参数还需要再仔细调整。摄像头帧率在27-28帧左右。舵机使用MG996R，很常见，驱动电压5.9v,采用大功率稳压器件。由锂电池稳压驱动舵机。锂电池11.4v 3S. 
 
 ## 核心任务
 
